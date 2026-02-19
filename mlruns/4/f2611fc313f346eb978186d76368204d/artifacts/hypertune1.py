@@ -49,7 +49,7 @@ with mlflow.start_run() as parent:
             mlflow.log_metric("accuracy", grid_search.cv_results_["mean_test_score"][i])
 
     # Displaying the best parameters and the best score
-    best_params = grid_search.best_params_ 
+    best_params = grid_search.best_params_
     best_score = grid_search.best_score_
 
     # Log params
