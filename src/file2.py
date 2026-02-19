@@ -26,7 +26,7 @@ max_depth = 8
 n_estimators = 5
 
 # Mention your experiment below
-mlflow.set_experiment('MLOps-Exp-2')
+mlflow.set_experiment('MLOps-Exp-3')
 
 
 with mlflow.start_run():
